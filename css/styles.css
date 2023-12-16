@@ -310,7 +310,6 @@ header {
 .social-media-items {
     width: 40px;
     height: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-svg {
@@ -325,6 +324,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-link:hover,
@@ -370,7 +370,6 @@ header {
 .customer-list-item {
     width: calc((100% - 120px) / 6);
     height: 88px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-link {
@@ -382,7 +381,9 @@ header {
     align-items: center;
     justify-content: center;
     color: #8e8f99;
-    fill: none
+    fill: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-svg {
@@ -427,7 +428,6 @@ header {
 .footer-social-links-items {
     width: 40px;
     height: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-links{
@@ -438,6 +438,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-links:hover,
