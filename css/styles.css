@@ -73,6 +73,7 @@ header {
     color: #2e2f42;
     text-decoration: none;
     padding: 24px 0;
+    color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list .list-item:focus,
@@ -99,6 +100,17 @@ header {
 
 .nav-links {
     display: flex;
+    position: relative;
+    color: #404bbf;
+}
+
+.nav-links::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
 }
 
 .logo {
@@ -128,6 +140,7 @@ header {
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-items .list-address-item:focus,
@@ -139,7 +152,8 @@ header {
     background: #2e2f42;
     padding: 188px 0;
     width: 100%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
