@@ -182,6 +182,7 @@ header {
 }
 
 .order-button {
+    background-color: #4D5AE5;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -599,7 +600,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 40px;
+    width: 400px;
     min-height: 584px;
     background: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -631,4 +632,8 @@ header {
 
 .modal-svg{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-svg:hover, .modal-svg:focus {
+    fill: #ffffff       
 }
