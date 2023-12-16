@@ -543,7 +543,7 @@ header {
     gap: 24px;
     margin-bottom: 72px;
 }
-    
+
 .image-link {
     display: flex;
     row-gap: 48px;
@@ -589,6 +589,12 @@ header {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 .modal{
     position: absolute;
     top: 50%;
@@ -622,12 +628,9 @@ header {
 .modal-button:hover, .modal-button:focus{
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .modal-svg{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-svg:hover, .modal-svg:focus{
-    fill: #ffffff;
 }
