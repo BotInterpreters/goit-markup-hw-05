@@ -474,6 +474,10 @@ header {
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button:hover {
@@ -490,6 +494,11 @@ header {
 .portfolio-link {
     text-decoration: none;
     display: block;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-link:hover, portfolio-link:focus {
+   transform: translateY(0%);
 }
 
 
@@ -534,10 +543,30 @@ header {
     gap: 24px;
     margin-bottom: 72px;
 }
-
+    
 .image-link {
     display: flex;
     row-gap: 48px;
+}
+
+.image-link-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-link-text{
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--social-icon);
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-details {
