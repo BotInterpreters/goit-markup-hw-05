@@ -182,7 +182,7 @@ header {
 }
 
 .order-button {
-    background-color: #4D5AE5;
+    background-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -195,7 +195,6 @@ header {
     height: 56px;
     border: none;
     border-radius: 4px;
-    background-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:focus,
@@ -310,6 +309,7 @@ header {
 .social-media-items {
     width: 40px;
     height: 40px;
+    transition-property: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-svg {
@@ -324,7 +324,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -429,6 +428,7 @@ header {
 .footer-social-links-items {
     width: 40px;
     height: 40px;
+    transition-property: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-links {
@@ -439,7 +439,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-links:hover,
