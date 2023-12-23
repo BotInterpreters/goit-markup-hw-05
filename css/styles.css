@@ -195,6 +195,7 @@ header {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 1rem auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -305,11 +306,13 @@ header {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 1rem;
 }
 
 .social-media-items {
     width: 40px;
     height: 40px;
+    list-style: none;
 }
 
 .team-svg {
@@ -349,11 +352,13 @@ header {
     line-height: 1.11;
     color: #2e2f42;
     margin-bottom: 72px;
+    text-align: center;
 }
 
 .customer-list {
     display: flex;
     gap: 24px;
+    list-style: none;
 
 }
 
@@ -413,6 +418,7 @@ header {
 .footer-social-links {
     display: flex;
     gap: 16px;
+    list-style: none;
 }
 
 .footer-social-links-items {
@@ -597,6 +603,8 @@ header {
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 .modal-button {
     position: absolute;
